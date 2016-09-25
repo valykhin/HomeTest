@@ -27,7 +27,7 @@ public class SubtractOperationTest extends OperationTest{
 
     @Features("Subtracting")
     @Test
-    public void Test() {
+    public void TestSubtracting() {
         OperationTestSteps.subtractTest(operand1, operand2, result);
 
     }

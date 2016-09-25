@@ -25,7 +25,7 @@ public class MultiplyOperationTest extends OperationTest{
 
     @Features("Multiplying")
     @Test
-    public void Test() {
+    public void TestMultiplying() {
         OperationTestSteps.multiplyTest(operand1, operand2, result);
 
     }

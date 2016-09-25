@@ -1,7 +1,7 @@
-org\hometest\test\DivideOperationTest.class
 org\hometest\test\MultiplyOperationTest.class
 org\hometest\test\TestSuite.class
 org\hometest\test\DataLoader.class
+org\hometest\test\DivisionOperationTest.class
 org\hometest\test\SubtractOperationTest.class
 org\hometest\test\OperationTest.class
 org\hometest\test\OperationTestSteps.class

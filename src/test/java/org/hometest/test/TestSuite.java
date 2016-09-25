@@ -12,7 +12,7 @@ import org.junit.runners.Suite;
         AddOperationTest.class,
         SubtractOperationTest.class,
         MultiplyOperationTest.class,
-        DivideOperationTest.class
+        DivisionOperationTest.class
 })
 public class TestSuite {
 

@@ -6,7 +6,6 @@ package org.hometest.test;
 
 
 import org.junit.Assert;
-import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Step;
 
 public class OperationTestSteps {

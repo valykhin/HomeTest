@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1474770181425" stop="1474770181593" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>org.hometest.test.MultiplyOperationTest</name>
+    <test-cases>
+        <test-case start="1474770181426" stop="1474770181426" status="passed">
+            <name>TestMultiplying[1 * 1 = 1]</name>
+            <steps>
+                <step start="1474770181426" stop="1474770181426" status="passed">
+                    <name>multiplyTest[1, 1, 1]</name>
+                    <title>Check multiplying operation result</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Multiplying"/>
+                <label name="host" value="ilia-pc"/>
+                <label name="thread" value="7612@ilia-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1474770181426" stop="1474770181426" status="passed">
+            <name>TestMultiplying[10 * 0 = 0]</name>
+            <steps>
+                <step start="1474770181426" stop="1474770181426" status="passed">
+                    <name>multiplyTest[10, 0, 0]</name>
+                    <title>Check multiplying operation result</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Multiplying"/>
+                <label name="host" value="ilia-pc"/>
+                <label name="thread" value="7612@ilia-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1474770181427" stop="1474770181427" status="passed">
+            <name>TestMultiplying[-12 * 2 = -24]</name>
+            <steps>
+                <step start="1474770181427" stop="1474770181427" status="passed">
+                    <name>multiplyTest[-12, 2, -24]</name>
+                    <title>Check multiplying operation result</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Multiplying"/>
+                <label name="host" value="ilia-pc"/>
+                <label name="thread" value="7612@ilia-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1474770181427" stop="1474770181427" status="passed">
+            <name>TestMultiplying[-11 * -11 = 121]</name>
+            <steps>
+                <step start="1474770181427" stop="1474770181427" status="passed">
+                    <name>multiplyTest[-11, -11, 121]</name>
+                    <title>Check multiplying operation result</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Multiplying"/>
+                <label name="host" value="ilia-pc"/>
+                <label name="thread" value="7612@ilia-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1474770181428" stop="1474770181428" status="passed">
+            <name>TestMultiplying[0 * 2 = 0]</name>
+            <steps>
+                <step start="1474770181428" stop="1474770181428" status="passed">
+                    <name>multiplyTest[0, 2, 0]</name>
+                    <title>Check multiplying operation result</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="feature" value="Multiplying"/>
+                <label name="host" value="ilia-pc"/>
+                <label name="thread" value="7612@ilia-pc.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

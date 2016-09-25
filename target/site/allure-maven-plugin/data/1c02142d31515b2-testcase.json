@@ -1,0 +1,65 @@
+{
+  "uid" : "1c02142d31515b2",
+  "name" : "TestSubtracting[-12 - -13 = 1]",
+  "title" : "Test subtracting [-12 - -13 = 1]",
+  "time" : {
+    "start" : 1474770181424,
+    "stop" : 1474770181424,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "56257cd87e0decab",
+    "name" : "org.hometest.test.SubtractOperationTest",
+    "title" : "Subtract operation test"
+  },
+  "steps" : [ {
+    "name" : "subtractTest[-12, -13, 1]",
+    "title" : "Check subtracting operation result",
+    "time" : {
+      "start" : 1474770181424,
+      "stop" : 1474770181424,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Subtracting"
+  }, {
+    "name" : "host",
+    "value" : "ilia-pc"
+  }, {
+    "name" : "thread",
+    "value" : "7612@ilia-pc.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "org.hometest.test.SubtractOperationTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

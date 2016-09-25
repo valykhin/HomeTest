@@ -3,92 +3,97 @@
   "plugins" : {
     "total" : {
       "statistic" : {
-        "total" : 52,
-        "passed" : 42,
+        "total" : 27,
+        "passed" : 21,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 10,
+        "failed" : 6,
         "broken" : 0
       },
       "time" : {
-        "start" : 1474768339305,
-        "stop" : 1474768339434,
-        "duration" : 129
+        "start" : 1474770181335,
+        "stop" : 1474770181432,
+        "duration" : 97
       }
     },
     "defects" : {
-      "totalCount" : 5,
+      "totalCount" : 6,
       "items" : [ {
-        "count" : 2,
-        "uid" : "46599760f2f6921e",
+        "count" : 1,
+        "uid" : "7c7090106dc29165",
         "message" : "AssertionError: expected:<1333> but was:<1>",
         "status" : "FAILED"
       }, {
-        "count" : 2,
-        "uid" : "e951f433f7c56f26",
+        "count" : 1,
+        "uid" : "ba0e5a1dcc317297",
         "message" : "AssertionError: expected:<543> but was:<-543>",
         "status" : "FAILED"
       }, {
-        "count" : 2,
-        "uid" : "c32b9792510b15f1",
+        "count" : 1,
+        "uid" : "fc0da49ba2e87a35",
         "message" : "AssertionError: expected:<-1> but was:<1>",
         "status" : "FAILED"
       }, {
-        "count" : 2,
-        "uid" : "c76948eaf965699e",
-        "message" : "AssertionError: expected:<-21> but was:<-20>",
+        "count" : 1,
+        "uid" : "c9de4f9939f662fa",
+        "message" : "AssertionError: expected:<1.3> but was:<1.5>",
         "status" : "FAILED"
       }, {
-        "count" : 2,
-        "uid" : "2ddfcf9eec472c7b",
-        "message" : "AssertionError: expected:<1.3> but was:<1.5>",
+        "count" : 1,
+        "uid" : "fa0be28f32faf144",
+        "message" : "AssertionError: expected:<1.3> but was:<Infinity>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "bfad5e09e9b9e758",
+        "message" : "AssertionError: expected:<-21> but was:<-20>",
         "status" : "FAILED"
       } ]
     },
     "xunit" : {
       "totalCount" : 4,
       "items" : [ {
-        "uid" : "df674aff9730d7cc",
+        "uid" : "fe853b324dd27904",
         "title" : "Add operation test",
         "statistic" : {
-          "total" : 16,
-          "passed" : 14,
+          "total" : 8,
+          "passed" : 7,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 2,
+          "failed" : 1,
           "broken" : 0
         }
       }, {
-        "uid" : "e19af2583628f0ec",
-        "title" : "Divide operation test",
+        "uid" : "144f57910705d3e3",
+        "title" : "Division operation test",
         "statistic" : {
-          "total" : 14,
-          "passed" : 12,
+          "total" : 8,
+          "passed" : 6,
           "pending" : 0,
           "canceled" : 0,
           "failed" : 2,
           "broken" : 0
         }
       }, {
-        "uid" : "601967851a68e887",
+        "uid" : "14e06d83838ac471",
         "title" : "Multiply operation test",
         "statistic" : {
-          "total" : 10,
-          "passed" : 10,
+          "total" : 5,
+          "passed" : 5,
           "pending" : 0,
           "canceled" : 0,
           "failed" : 0,
           "broken" : 0
         }
       }, {
-        "uid" : "d50eda9497901b0a",
+        "uid" : "56257cd87e0decab",
         "title" : "Subtract operation test",
         "statistic" : {
-          "total" : 12,
-          "passed" : 6,
+          "total" : 6,
+          "passed" : 3,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 6,
+          "failed" : 3,
           "broken" : 0
         }
       } ]
@@ -98,18 +103,18 @@
       "items" : [ {
         "title" : "Adding",
         "statistic" : {
-          "total" : 16,
-          "passed" : 14,
+          "total" : 8,
+          "passed" : 7,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 2,
+          "failed" : 1,
           "broken" : 0
         }
       }, {
         "title" : "Division",
         "statistic" : {
-          "total" : 14,
-          "passed" : 12,
+          "total" : 8,
+          "passed" : 6,
           "pending" : 0,
           "canceled" : 0,
           "failed" : 2,
@@ -118,8 +123,8 @@
       }, {
         "title" : "Multiplying",
         "statistic" : {
-          "total" : 10,
-          "passed" : 10,
+          "total" : 5,
+          "passed" : 5,
           "pending" : 0,
           "canceled" : 0,
           "failed" : 0,
@@ -128,11 +133,11 @@
       }, {
         "title" : "Subtracting",
         "statistic" : {
-          "total" : 12,
-          "passed" : 6,
+          "total" : 6,
+          "passed" : 3,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 6,
+          "failed" : 3,
           "broken" : 0
         }
       } ]

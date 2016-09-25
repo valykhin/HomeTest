@@ -22,12 +22,14 @@ public class AddOperationTest extends OperationTest{
 
     @Parameters(name = "{0} {2} {1} = {3}")
     public static List<String[]> data() {
+        System.out.print((DataLoader.loadData(".\\src\\main\\resources\\datafile", "+")).size());
         return DataLoader.loadData(".\\src\\main\\resources\\datafile", "+");
     }
 
     @Features("Adding")
     @Test
-    public void Test() {
+    public void TestAdding() {
+
         OperationTestSteps.addTest(operand1, operand2, result);
     }
 }

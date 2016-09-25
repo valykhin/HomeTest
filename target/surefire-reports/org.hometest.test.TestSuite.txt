@@ -1,49 +1,58 @@
 -------------------------------------------------------------------------------
 Test set: org.hometest.test.TestSuite
 -------------------------------------------------------------------------------
-Tests run: 26, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec <<< FAILURE!
-Test[1 + -21 = -21](org.hometest.test.AddOperationTest)  Time elapsed: 0 sec  <<< FAILURE!
+Tests run: 27, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.314 sec <<< FAILURE!
+TestAdding[1 + -21 = -21](org.hometest.test.AddOperationTest)  Time elapsed: 0.007 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<-21> but was:<-20>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at org.hometest.test.OperationTestSteps.addTest(OperationTestSteps.java:18)
-	at org.hometest.test.AddOperationTest.Test(AddOperationTest.java:31)
+	at org.hometest.test.OperationTestSteps.addTest(OperationTestSteps.java:17)
+	at org.hometest.test.AddOperationTest.TestAdding(AddOperationTest.java:33)
 
-Test[2 - 1 = 1333](org.hometest.test.SubtractOperationTest)  Time elapsed: 0 sec  <<< FAILURE!
+TestSubtracting[2 - 1 = 1333](org.hometest.test.SubtractOperationTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<1333> but was:<1>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at org.hometest.test.OperationTestSteps.subtractTest(OperationTestSteps.java:25)
-	at org.hometest.test.SubtractOperationTest.Test(SubtractOperationTest.java:31)
+	at org.hometest.test.OperationTestSteps.subtractTest(OperationTestSteps.java:24)
+	at org.hometest.test.SubtractOperationTest.TestSubtracting(SubtractOperationTest.java:31)
 
-Test[0 - 543 = 543](org.hometest.test.SubtractOperationTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+TestSubtracting[0 - 543 = 543](org.hometest.test.SubtractOperationTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<543> but was:<-543>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at org.hometest.test.OperationTestSteps.subtractTest(OperationTestSteps.java:25)
-	at org.hometest.test.SubtractOperationTest.Test(SubtractOperationTest.java:31)
+	at org.hometest.test.OperationTestSteps.subtractTest(OperationTestSteps.java:24)
+	at org.hometest.test.SubtractOperationTest.TestSubtracting(SubtractOperationTest.java:31)
 
-Test[-13 - -14 = -1](org.hometest.test.SubtractOperationTest)  Time elapsed: 0 sec  <<< FAILURE!
+TestSubtracting[-13 - -14 = -1](org.hometest.test.SubtractOperationTest)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<-1> but was:<1>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at org.hometest.test.OperationTestSteps.subtractTest(OperationTestSteps.java:25)
-	at org.hometest.test.SubtractOperationTest.Test(SubtractOperationTest.java:31)
+	at org.hometest.test.OperationTestSteps.subtractTest(OperationTestSteps.java:24)
+	at org.hometest.test.SubtractOperationTest.TestSubtracting(SubtractOperationTest.java:31)
 
-Test[3 / 2 = 1.3](org.hometest.test.DivideOperationTest)  Time elapsed: 0 sec  <<< FAILURE!
+TestDivision[3 / 2 = 1.3](org.hometest.test.DivisionOperationTest)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<1.3> but was:<1.5>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at org.hometest.test.OperationTestSteps.divisionTest(OperationTestSteps.java:40)
-	at org.hometest.test.DivideOperationTest.Test(DivideOperationTest.java:29)
+	at org.hometest.test.OperationTestSteps.divisionTest(OperationTestSteps.java:39)
+	at org.hometest.test.DivisionOperationTest.TestDivision(DivisionOperationTest.java:30)
+
+TestDivision[3 / 0 = 1.3](org.hometest.test.DivisionOperationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1.3> but was:<Infinity>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at org.junit.Assert.assertEquals(Assert.java:683)
+	at org.hometest.test.OperationTestSteps.divisionTest(OperationTestSteps.java:39)
+	at org.hometest.test.DivisionOperationTest.TestDivision(DivisionOperationTest.java:30)
 

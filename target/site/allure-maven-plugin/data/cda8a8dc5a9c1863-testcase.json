@@ -1,0 +1,65 @@
+{
+  "uid" : "cda8a8dc5a9c1863",
+  "name" : "TestAdding[0 + 256 = 256]",
+  "title" : "Test adding [0 + 256 = 256]",
+  "time" : {
+    "start" : 1474770181409,
+    "stop" : 1474770181409,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "fe853b324dd27904",
+    "name" : "org.hometest.test.AddOperationTest",
+    "title" : "Add operation test"
+  },
+  "steps" : [ {
+    "name" : "addTest[0, 256, 256]",
+    "title" : "Check adding operation result",
+    "time" : {
+      "start" : 1474770181409,
+      "stop" : 1474770181409,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Adding"
+  }, {
+    "name" : "host",
+    "value" : "ilia-pc"
+  }, {
+    "name" : "thread",
+    "value" : "7612@ilia-pc.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "org.hometest.test.AddOperationTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}
