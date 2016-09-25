@@ -10,7 +10,7 @@
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "4c64f240418dc614",
+      "uid" : "715f4ce8eb78cdbc",
       "title" : "Without story",
       "statistic" : {
         "total" : 10,
@@ -21,310 +21,111 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "795fc48bd7e92a28",
+        "uid" : "daa6cfc69dc578b2",
         "name" : "Test[1 * 1 = 1]",
         "title" : "Test [1 * 1 = 1]",
         "time" : {
-          "start" : 1474766908634,
-          "stop" : 1474766908634,
+          "start" : 1474768339401,
+          "stop" : 1474768339401,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "d370b65488c2af8f",
+        "uid" : "8f7e73a80d1b43a8",
         "name" : "Test[10 * 0 = 0]",
         "title" : "Test [10 * 0 = 0]",
         "time" : {
-          "start" : 1474766908634,
-          "stop" : 1474766908634,
+          "start" : 1474768339402,
+          "stop" : 1474768339402,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "eb9e8406db05d23c",
+        "uid" : "ab4c406ceb2fbc23",
         "name" : "Test[-12 * 2 = -24]",
         "title" : "Test [-12 * 2 = -24]",
         "time" : {
-          "start" : 1474766908636,
-          "stop" : 1474766908636,
+          "start" : 1474768339402,
+          "stop" : 1474768339402,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "a67e2449a67f2017",
+        "uid" : "4b6ea41ad80b9c44",
         "name" : "Test[-11 * -11 = 121]",
         "title" : "Test [-11 * -11 = 121]",
         "time" : {
-          "start" : 1474766908636,
-          "stop" : 1474766908636,
+          "start" : 1474768339402,
+          "stop" : 1474768339402,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "7eaa6177e0b3241c",
+        "uid" : "b731d80b08173f8a",
         "name" : "Test[0 * 2 = 0]",
         "title" : "Test [0 * 2 = 0]",
         "time" : {
-          "start" : 1474766908636,
-          "stop" : 1474766908636,
+          "start" : 1474768339403,
+          "stop" : 1474768339403,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "ed140052f6ac52be",
+        "uid" : "eade439177727f23",
         "name" : "Test[1 * 1 = 1]",
         "title" : "Test [1 * 1 = 1]",
         "time" : {
-          "start" : 1474766908663,
-          "stop" : 1474766908663,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "9f347dc3b94de8ef",
-        "name" : "Test[10 * 0 = 0]",
-        "title" : "Test [10 * 0 = 0]",
-        "time" : {
-          "start" : 1474766908664,
-          "stop" : 1474766908664,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "46175b7b25957bfa",
-        "name" : "Test[-12 * 2 = -24]",
-        "title" : "Test [-12 * 2 = -24]",
-        "time" : {
-          "start" : 1474766908664,
-          "stop" : 1474766908664,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "527efda96cbc3921",
-        "name" : "Test[-11 * -11 = 121]",
-        "title" : "Test [-11 * -11 = 121]",
-        "time" : {
-          "start" : 1474766908665,
-          "stop" : 1474766908665,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "4c308095fdc41d90",
-        "name" : "Test[0 * 2 = 0]",
-        "title" : "Test [0 * 2 = 0]",
-        "time" : {
-          "start" : 1474766908665,
-          "stop" : 1474766908665,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      } ]
-    } ]
-  }, {
-    "title" : "Adding",
-    "statistic" : {
-      "total" : 16,
-      "passed" : 14,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 2,
-      "broken" : 0
-    },
-    "stories" : [ {
-      "uid" : "a4ce757b1e172b23",
-      "title" : "Without story",
-      "statistic" : {
-        "total" : 16,
-        "passed" : 14,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 2,
-        "broken" : 0
-      },
-      "testCases" : [ {
-        "uid" : "f67583a82ba2add",
-        "name" : "Test[1 + 1 = 2]",
-        "title" : "Test [1 + 1 = 2]",
-        "time" : {
-          "start" : 1474766908532,
-          "stop" : 1474766908606,
-          "duration" : 74
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "fd4df4891eccc051",
-        "name" : "Test[143 + 0 = 143]",
-        "title" : "Test [143 + 0 = 143]",
-        "time" : {
-          "start" : 1474766908608,
-          "stop" : 1474766908608,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "3275f071afff6fa4",
-        "name" : "Test[0 + 256 = 256]",
-        "title" : "Test [0 + 256 = 256]",
-        "time" : {
-          "start" : 1474766908608,
-          "stop" : 1474766908608,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "d9c3749fa03c8cf7",
-        "name" : "Test[1333 + 1333 = 2666]",
-        "title" : "Test [1333 + 1333 = 2666]",
-        "time" : {
-          "start" : 1474766908609,
-          "stop" : 1474766908609,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "1fb632ec92c403ef",
-        "name" : "Test[0 + -21 = -21]",
-        "title" : "Test [0 + -21 = -21]",
-        "time" : {
-          "start" : 1474766908610,
-          "stop" : 1474766908610,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "d2cd40dbd2e1d9f6",
-        "name" : "Test[1 + -21 = -21]",
-        "title" : "Test [1 + -21 = -21]",
-        "time" : {
-          "start" : 1474766908610,
-          "stop" : 1474766908622,
-          "duration" : 12
-        },
-        "severity" : "NORMAL",
-        "status" : "FAILED"
-      }, {
-        "uid" : "2f3babaa81e0ab14",
-        "name" : "Test[-14 + 28 = 14]",
-        "title" : "Test [-14 + 28 = 14]",
-        "time" : {
-          "start" : 1474766908622,
-          "stop" : 1474766908622,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "c6a3565c39b083c0",
-        "name" : "Test[0 + 0 = 0]",
-        "title" : "Test [0 + 0 = 0]",
-        "time" : {
-          "start" : 1474766908623,
-          "stop" : 1474766908623,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "2c30f4133a20e9d6",
-        "name" : "Test[1 + 1 = 2]",
-        "title" : "Test [1 + 1 = 2]",
-        "time" : {
-          "start" : 1474766908655,
-          "stop" : 1474766908655,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "2228543ed53c84a",
-        "name" : "Test[143 + 0 = 143]",
-        "title" : "Test [143 + 0 = 143]",
-        "time" : {
-          "start" : 1474766908655,
-          "stop" : 1474766908655,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "baa4df436374422d",
-        "name" : "Test[0 + 256 = 256]",
-        "title" : "Test [0 + 256 = 256]",
-        "time" : {
-          "start" : 1474766908656,
-          "stop" : 1474766908656,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "e2d7d2648b32bf2",
-        "name" : "Test[1333 + 1333 = 2666]",
-        "title" : "Test [1333 + 1333 = 2666]",
-        "time" : {
-          "start" : 1474766908656,
-          "stop" : 1474766908656,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "87558581df499f1b",
-        "name" : "Test[0 + -21 = -21]",
-        "title" : "Test [0 + -21 = -21]",
-        "time" : {
-          "start" : 1474766908657,
-          "stop" : 1474766908657,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "ee06b3c937fc5a70",
-        "name" : "Test[1 + -21 = -21]",
-        "title" : "Test [1 + -21 = -21]",
-        "time" : {
-          "start" : 1474766908657,
-          "stop" : 1474766908658,
+          "start" : 1474768339429,
+          "stop" : 1474768339430,
           "duration" : 1
         },
         "severity" : "NORMAL",
-        "status" : "FAILED"
+        "status" : "PASSED"
       }, {
-        "uid" : "3eee6c51c66502b",
-        "name" : "Test[-14 + 28 = 14]",
-        "title" : "Test [-14 + 28 = 14]",
+        "uid" : "41e072ab74bb150b",
+        "name" : "Test[10 * 0 = 0]",
+        "title" : "Test [10 * 0 = 0]",
         "time" : {
-          "start" : 1474766908658,
-          "stop" : 1474766908658,
+          "start" : 1474768339430,
+          "stop" : 1474768339430,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "c85c3d341c1491f0",
-        "name" : "Test[0 + 0 = 0]",
-        "title" : "Test [0 + 0 = 0]",
+        "uid" : "ca5ede853a03e18",
+        "name" : "Test[-12 * 2 = -24]",
+        "title" : "Test [-12 * 2 = -24]",
         "time" : {
-          "start" : 1474766908659,
-          "stop" : 1474766908659,
+          "start" : 1474768339430,
+          "stop" : 1474768339430,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "41519a5b83d85f2b",
+        "name" : "Test[-11 * -11 = 121]",
+        "title" : "Test [-11 * -11 = 121]",
+        "time" : {
+          "start" : 1474768339431,
+          "stop" : 1474768339431,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fa87cc5f9c56733",
+        "name" : "Test[0 * 2 = 0]",
+        "title" : "Test [0 * 2 = 0]",
+        "time" : {
+          "start" : 1474768339431,
+          "stop" : 1474768339431,
           "duration" : 0
         },
         "severity" : "NORMAL",
@@ -342,7 +143,7 @@
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "a09ba55e860c96b3",
+      "uid" : "dfb6410dab52c27f",
       "title" : "Without story",
       "statistic" : {
         "total" : 12,
@@ -353,137 +154,336 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "2e1cb87036bf74c5",
+        "uid" : "38d7992c50ae3d30",
         "name" : "Test[2 - 1 = 1333]",
         "title" : "Test [2 - 1 = 1333]",
         "time" : {
-          "start" : 1474766908639,
-          "stop" : 1474766908640,
+          "start" : 1474768339406,
+          "stop" : 1474768339406,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "23f58b8d8ed7e1a4",
+        "name" : "Test[111 - 0 = 111]",
+        "title" : "Test [111 - 0 = 111]",
+        "time" : {
+          "start" : 1474768339407,
+          "stop" : 1474768339407,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "62edda1cbf5bd2af",
+        "name" : "Test[0 - 543 = 543]",
+        "title" : "Test [0 - 543 = 543]",
+        "time" : {
+          "start" : 1474768339407,
+          "stop" : 1474768339408,
           "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "9d69040fc07397c4",
-        "name" : "Test[111 - 0 = 111]",
-        "title" : "Test [111 - 0 = 111]",
-        "time" : {
-          "start" : 1474766908640,
-          "stop" : 1474766908640,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "708fe2b9811b59e1",
-        "name" : "Test[0 - 543 = 543]",
-        "title" : "Test [0 - 543 = 543]",
-        "time" : {
-          "start" : 1474766908641,
-          "stop" : 1474766908641,
-          "duration" : 0
-        },
-        "severity" : "NORMAL",
-        "status" : "FAILED"
-      }, {
-        "uid" : "2ced58a03d84149e",
+        "uid" : "e776c5f10130f74c",
         "name" : "Test[-12 - -13 = 1]",
         "title" : "Test [-12 - -13 = 1]",
         "time" : {
-          "start" : 1474766908641,
-          "stop" : 1474766908641,
+          "start" : 1474768339408,
+          "stop" : 1474768339408,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "81599ab512e084f7",
+        "uid" : "5f17ed8411543e95",
         "name" : "Test[-13 - 14 = -27]",
         "title" : "Test [-13 - 14 = -27]",
         "time" : {
-          "start" : 1474766908642,
-          "stop" : 1474766908642,
+          "start" : 1474768339408,
+          "stop" : 1474768339408,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "a0a92806bdd5494",
+        "uid" : "dc90e948cafdd492",
         "name" : "Test[-13 - -14 = -1]",
         "title" : "Test [-13 - -14 = -1]",
         "time" : {
-          "start" : 1474766908642,
-          "stop" : 1474766908642,
+          "start" : 1474768339409,
+          "stop" : 1474768339409,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "8eb18fca25d8c824",
+        "uid" : "6a695bd5b35f0a42",
         "name" : "Test[2 - 1 = 1333]",
         "title" : "Test [2 - 1 = 1333]",
         "time" : {
-          "start" : 1474766908659,
-          "stop" : 1474766908660,
-          "duration" : 1
+          "start" : 1474768339426,
+          "stop" : 1474768339426,
+          "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "6316f1c4714dc69b",
+        "uid" : "57c1e1b19e54f3a2",
         "name" : "Test[111 - 0 = 111]",
         "title" : "Test [111 - 0 = 111]",
         "time" : {
-          "start" : 1474766908660,
-          "stop" : 1474766908660,
+          "start" : 1474768339427,
+          "stop" : 1474768339427,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "e1d55b5c5b5269be",
+        "uid" : "858082c018fb0d20",
         "name" : "Test[0 - 543 = 543]",
         "title" : "Test [0 - 543 = 543]",
         "time" : {
-          "start" : 1474766908661,
-          "stop" : 1474766908661,
-          "duration" : 0
+          "start" : 1474768339427,
+          "stop" : 1474768339428,
+          "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "6dd6c0bfaed4129e",
+        "uid" : "abf9555b6ccc92ca",
         "name" : "Test[-12 - -13 = 1]",
         "title" : "Test [-12 - -13 = 1]",
         "time" : {
-          "start" : 1474766908661,
-          "stop" : 1474766908662,
-          "duration" : 1
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "56d2f88f58202017",
-        "name" : "Test[-13 - 14 = -27]",
-        "title" : "Test [-13 - 14 = -27]",
-        "time" : {
-          "start" : 1474766908662,
-          "stop" : 1474766908662,
+          "start" : 1474768339428,
+          "stop" : 1474768339428,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "7617e4bfa592d0a0",
+        "uid" : "25f3ffa6133c906f",
+        "name" : "Test[-13 - 14 = -27]",
+        "title" : "Test [-13 - 14 = -27]",
+        "time" : {
+          "start" : 1474768339428,
+          "stop" : 1474768339428,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "db534908c6aa3022",
         "name" : "Test[-13 - -14 = -1]",
         "title" : "Test [-13 - -14 = -1]",
         "time" : {
-          "start" : 1474766908662,
-          "stop" : 1474766908663,
-          "duration" : 1
+          "start" : 1474768339429,
+          "stop" : 1474768339429,
+          "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Adding",
+    "statistic" : {
+      "total" : 16,
+      "passed" : 14,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "f8a48f14a86f1d9b",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 16,
+        "passed" : 14,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 2,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "ec3a5ac7c23fa9f8",
+        "name" : "Test[1 + 1 = 2]",
+        "title" : "Test [1 + 1 = 2]",
+        "time" : {
+          "start" : 1474768339305,
+          "stop" : 1474768339372,
+          "duration" : 67
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a5d295a3e106694e",
+        "name" : "Test[143 + 0 = 143]",
+        "title" : "Test [143 + 0 = 143]",
+        "time" : {
+          "start" : 1474768339374,
+          "stop" : 1474768339374,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8c65f50e92bbb26c",
+        "name" : "Test[0 + 256 = 256]",
+        "title" : "Test [0 + 256 = 256]",
+        "time" : {
+          "start" : 1474768339375,
+          "stop" : 1474768339375,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d3fb4ce1490806fa",
+        "name" : "Test[1333 + 1333 = 2666]",
+        "title" : "Test [1333 + 1333 = 2666]",
+        "time" : {
+          "start" : 1474768339375,
+          "stop" : 1474768339375,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f09524f3bbea455d",
+        "name" : "Test[0 + -21 = -21]",
+        "title" : "Test [0 + -21 = -21]",
+        "time" : {
+          "start" : 1474768339376,
+          "stop" : 1474768339376,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "24c52b63c96e6e3c",
+        "name" : "Test[1 + -21 = -21]",
+        "title" : "Test [1 + -21 = -21]",
+        "time" : {
+          "start" : 1474768339376,
+          "stop" : 1474768339389,
+          "duration" : 13
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "9556f945bd246e61",
+        "name" : "Test[-14 + 28 = 14]",
+        "title" : "Test [-14 + 28 = 14]",
+        "time" : {
+          "start" : 1474768339389,
+          "stop" : 1474768339389,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "dba7d815332286aa",
+        "name" : "Test[0 + 0 = 0]",
+        "title" : "Test [0 + 0 = 0]",
+        "time" : {
+          "start" : 1474768339390,
+          "stop" : 1474768339390,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9c4b2c0b99df6afe",
+        "name" : "Test[1 + 1 = 2]",
+        "title" : "Test [1 + 1 = 2]",
+        "time" : {
+          "start" : 1474768339422,
+          "stop" : 1474768339422,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5ffe4eef1baf1445",
+        "name" : "Test[143 + 0 = 143]",
+        "title" : "Test [143 + 0 = 143]",
+        "time" : {
+          "start" : 1474768339422,
+          "stop" : 1474768339423,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3471130664f9b4fd",
+        "name" : "Test[0 + 256 = 256]",
+        "title" : "Test [0 + 256 = 256]",
+        "time" : {
+          "start" : 1474768339423,
+          "stop" : 1474768339423,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f1164a96f39f5ac5",
+        "name" : "Test[1333 + 1333 = 2666]",
+        "title" : "Test [1333 + 1333 = 2666]",
+        "time" : {
+          "start" : 1474768339423,
+          "stop" : 1474768339423,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "90ed0b8893283155",
+        "name" : "Test[0 + -21 = -21]",
+        "title" : "Test [0 + -21 = -21]",
+        "time" : {
+          "start" : 1474768339424,
+          "stop" : 1474768339424,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7301e2f25081249c",
+        "name" : "Test[1 + -21 = -21]",
+        "title" : "Test [1 + -21 = -21]",
+        "time" : {
+          "start" : 1474768339424,
+          "stop" : 1474768339424,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "35196b2f2328ce22",
+        "name" : "Test[-14 + 28 = 14]",
+        "title" : "Test [-14 + 28 = 14]",
+        "time" : {
+          "start" : 1474768339425,
+          "stop" : 1474768339425,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6ba34aab908c626c",
+        "name" : "Test[0 + 0 = 0]",
+        "title" : "Test [0 + 0 = 0]",
+        "time" : {
+          "start" : 1474768339425,
+          "stop" : 1474768339426,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
       } ]
     } ]
   }, {
@@ -497,7 +497,7 @@
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "3a4c00d25dc4ec13",
+      "uid" : "31ac4eb6fb053428",
       "title" : "Without story",
       "statistic" : {
         "total" : 14,
@@ -508,155 +508,155 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "1f13cc159f2f2f08",
+        "uid" : "77d13fb6d9c36fb2",
         "name" : "Test[1 / 1 = 1]",
         "title" : "Test [1 / 1 = 1]",
         "time" : {
-          "start" : 1474766908627,
-          "stop" : 1474766908627,
-          "duration" : 0
+          "start" : 1474768339394,
+          "stop" : 1474768339395,
+          "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "cf148be59a85251e",
+        "uid" : "dd29c5c79ba123c4",
         "name" : "Test[12 / 2 = 6]",
         "title" : "Test [12 / 2 = 6]",
         "time" : {
-          "start" : 1474766908628,
-          "stop" : 1474766908628,
+          "start" : 1474768339395,
+          "stop" : 1474768339395,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "11b910aedf8f5e1e",
+        "uid" : "9544ce5e9f741f06",
         "name" : "Test[0 / 12 = 0]",
         "title" : "Test [0 / 12 = 0]",
         "time" : {
-          "start" : 1474766908628,
-          "stop" : 1474766908628,
+          "start" : 1474768339396,
+          "stop" : 1474768339396,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "b7b73eba79bc7574",
+        "uid" : "bdc0932083384be9",
         "name" : "Test[-11 / 2 = -5.5]",
         "title" : "Test [-11 / 2 = -5.5]",
         "time" : {
-          "start" : 1474766908629,
-          "stop" : 1474766908629,
+          "start" : 1474768339396,
+          "stop" : 1474768339396,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "394381462e0a73db",
+        "uid" : "62ab9b453015b0bf",
         "name" : "Test[-20 / -10 = 2]",
         "title" : "Test [-20 / -10 = 2]",
         "time" : {
-          "start" : 1474766908629,
-          "stop" : 1474766908629,
+          "start" : 1474768339397,
+          "stop" : 1474768339397,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "1d6eb047ec9e75ea",
+        "uid" : "99dcef30b6ba214b",
         "name" : "Test[2 / -1 = -2]",
         "title" : "Test [2 / -1 = -2]",
         "time" : {
-          "start" : 1474766908630,
-          "stop" : 1474766908630,
+          "start" : 1474768339397,
+          "stop" : 1474768339397,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "c3af26c194cbf546",
+        "uid" : "be6806fa6889fb5a",
         "name" : "Test[3 / 2 = 1.3]",
         "title" : "Test [3 / 2 = 1.3]",
         "time" : {
-          "start" : 1474766908630,
-          "stop" : 1474766908631,
-          "duration" : 1
+          "start" : 1474768339398,
+          "stop" : 1474768339398,
+          "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "2ad88682af5415ba",
+        "uid" : "137b634336b8d3a5",
         "name" : "Test[1 / 1 = 1]",
         "title" : "Test [1 / 1 = 1]",
         "time" : {
-          "start" : 1474766908665,
-          "stop" : 1474766908665,
+          "start" : 1474768339432,
+          "stop" : 1474768339432,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "383c348aa908bb70",
+        "uid" : "f17b338e97a34fab",
         "name" : "Test[12 / 2 = 6]",
         "title" : "Test [12 / 2 = 6]",
         "time" : {
-          "start" : 1474766908666,
-          "stop" : 1474766908666,
+          "start" : 1474768339432,
+          "stop" : 1474768339432,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "93b393c32fc1bcde",
+        "uid" : "eba5d1024dda0331",
         "name" : "Test[0 / 12 = 0]",
         "title" : "Test [0 / 12 = 0]",
         "time" : {
-          "start" : 1474766908666,
-          "stop" : 1474766908666,
+          "start" : 1474768339432,
+          "stop" : 1474768339432,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "6c9c67e75b76ad62",
+        "uid" : "505e90a8ac8a773",
         "name" : "Test[-11 / 2 = -5.5]",
         "title" : "Test [-11 / 2 = -5.5]",
         "time" : {
-          "start" : 1474766908667,
-          "stop" : 1474766908667,
+          "start" : 1474768339433,
+          "stop" : 1474768339433,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "b24fe4cf01530ecf",
+        "uid" : "54050ab4b70629a4",
         "name" : "Test[-20 / -10 = 2]",
         "title" : "Test [-20 / -10 = 2]",
         "time" : {
-          "start" : 1474766908667,
-          "stop" : 1474766908667,
+          "start" : 1474768339433,
+          "stop" : 1474768339433,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "a399d048c612acbf",
+        "uid" : "f6b8ab0e04bd295c",
         "name" : "Test[2 / -1 = -2]",
         "title" : "Test [2 / -1 = -2]",
         "time" : {
-          "start" : 1474766908668,
-          "stop" : 1474766908668,
+          "start" : 1474768339433,
+          "stop" : 1474768339433,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "f63e865e8ed1890b",
+        "uid" : "d01e577a3cdf4099",
         "name" : "Test[3 / 2 = 1.3]",
         "title" : "Test [3 / 2 = 1.3]",
         "time" : {
-          "start" : 1474766908668,
-          "stop" : 1474766908668,
+          "start" : 1474768339434,
+          "stop" : 1474768339434,
           "duration" : 0
         },
         "severity" : "NORMAL",

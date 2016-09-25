@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: org.hometest.test.AddOperationTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.3 sec <<< FAILURE!
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.291 sec <<< FAILURE!
 Test[1 + -21 = -21](org.hometest.test.AddOperationTest)  Time elapsed: 0.01 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<-21> but was:<-20>
 	at org.junit.Assert.fail(Assert.java:88)

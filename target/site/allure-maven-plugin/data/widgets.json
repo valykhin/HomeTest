@@ -11,36 +11,36 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1474766908532,
-        "stop" : 1474766908668,
-        "duration" : 136
+        "start" : 1474768339305,
+        "stop" : 1474768339434,
+        "duration" : 129
       }
     },
     "defects" : {
       "totalCount" : 5,
       "items" : [ {
         "count" : 2,
-        "uid" : "9f61c84be2bf5f01",
-        "message" : "AssertionError: expected:<-21> but was:<-20>",
-        "status" : "FAILED"
-      }, {
-        "count" : 2,
-        "uid" : "a45c1a027c4d7ab9",
+        "uid" : "46599760f2f6921e",
         "message" : "AssertionError: expected:<1333> but was:<1>",
         "status" : "FAILED"
       }, {
         "count" : 2,
-        "uid" : "21d76f2ab58263fa",
+        "uid" : "e951f433f7c56f26",
         "message" : "AssertionError: expected:<543> but was:<-543>",
         "status" : "FAILED"
       }, {
         "count" : 2,
-        "uid" : "bb025fc0469653bf",
+        "uid" : "c32b9792510b15f1",
         "message" : "AssertionError: expected:<-1> but was:<1>",
         "status" : "FAILED"
       }, {
         "count" : 2,
-        "uid" : "a55c28356a7b0980",
+        "uid" : "c76948eaf965699e",
+        "message" : "AssertionError: expected:<-21> but was:<-20>",
+        "status" : "FAILED"
+      }, {
+        "count" : 2,
+        "uid" : "2ddfcf9eec472c7b",
         "message" : "AssertionError: expected:<1.3> but was:<1.5>",
         "status" : "FAILED"
       } ]
@@ -48,7 +48,7 @@
     "xunit" : {
       "totalCount" : 4,
       "items" : [ {
-        "uid" : "462426385ca8c012",
+        "uid" : "df674aff9730d7cc",
         "title" : "Add operation test",
         "statistic" : {
           "total" : 16,
@@ -59,7 +59,7 @@
           "broken" : 0
         }
       }, {
-        "uid" : "ca8bf72b1e4624ac",
+        "uid" : "e19af2583628f0ec",
         "title" : "Divide operation test",
         "statistic" : {
           "total" : 14,
@@ -70,7 +70,7 @@
           "broken" : 0
         }
       }, {
-        "uid" : "6aa9357603a04cdf",
+        "uid" : "601967851a68e887",
         "title" : "Multiply operation test",
         "statistic" : {
           "total" : 10,
@@ -81,7 +81,7 @@
           "broken" : 0
         }
       }, {
-        "uid" : "b0fa4afdba4cea24",
+        "uid" : "d50eda9497901b0a",
         "title" : "Subtract operation test",
         "statistic" : {
           "total" : 12,

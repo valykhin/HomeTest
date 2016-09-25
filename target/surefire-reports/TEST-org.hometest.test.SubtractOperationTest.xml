@@ -70,8 +70,8 @@
 	at org.hometest.test.SubtractOperationTest.Test(SubtractOperationTest.java:31)
 ]]></failure>
   </testcase>
-  <testcase name="Test[111 - 0 = 111]" classname="org.hometest.test.SubtractOperationTest" time="0"/>
-  <testcase name="Test[0 - 543 = 543]" classname="org.hometest.test.SubtractOperationTest" time="0.001">
+  <testcase name="Test[111 - 0 = 111]" classname="org.hometest.test.SubtractOperationTest" time="0.001"/>
+  <testcase name="Test[0 - 543 = 543]" classname="org.hometest.test.SubtractOperationTest" time="0">
     <failure message="expected:&lt;543&gt; but was:&lt;-543&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<543> but was:<-543>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)

@@ -1,0 +1,65 @@
+{
+  "uid" : "62ab9b453015b0bf",
+  "name" : "Test[-20 / -10 = 2]",
+  "title" : "Test [-20 / -10 = 2]",
+  "time" : {
+    "start" : 1474768339397,
+    "stop" : 1474768339397,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e19af2583628f0ec",
+    "name" : "org.hometest.test.DivideOperationTest",
+    "title" : "Divide operation test"
+  },
+  "steps" : [ {
+    "name" : "divisionTest[-20, -10, 2]",
+    "title" : "Check dividing operation result",
+    "time" : {
+      "start" : 1474768339397,
+      "stop" : 1474768339397,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Division"
+  }, {
+    "name" : "host",
+    "value" : "ilia-pc"
+  }, {
+    "name" : "thread",
+    "value" : "7228@ilia-pc.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "org.hometest.test.DivideOperationTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

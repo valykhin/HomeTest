@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.hometest.test.DivideOperationTest" time="0.001" tests="7" errors="0" skipped="0" failures="1">
+<testsuite name="org.hometest.test.DivideOperationTest" time="0.002" tests="7" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_80\jre\bin"/>
@@ -64,7 +64,7 @@
   <testcase name="Test[12 / 2 = 6]" classname="org.hometest.test.DivideOperationTest" time="0"/>
   <testcase name="Test[0 / 12 = 0]" classname="org.hometest.test.DivideOperationTest" time="0"/>
   <testcase name="Test[-11 / 2 = -5.5]" classname="org.hometest.test.DivideOperationTest" time="0"/>
-  <testcase name="Test[-20 / -10 = 2]" classname="org.hometest.test.DivideOperationTest" time="0"/>
+  <testcase name="Test[-20 / -10 = 2]" classname="org.hometest.test.DivideOperationTest" time="0.001"/>
   <testcase name="Test[2 / -1 = -2]" classname="org.hometest.test.DivideOperationTest" time="0"/>
   <testcase name="Test[3 / 2 = 1.3]" classname="org.hometest.test.DivideOperationTest" time="0.001">
     <failure message="expected:&lt;1.3&gt; but was:&lt;1.5&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<1.3> but was:<1.5>

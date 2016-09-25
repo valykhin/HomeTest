@@ -1,0 +1,65 @@
+{
+  "uid" : "ab4c406ceb2fbc23",
+  "name" : "Test[-12 * 2 = -24]",
+  "title" : "Test [-12 * 2 = -24]",
+  "time" : {
+    "start" : 1474768339402,
+    "stop" : 1474768339402,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "601967851a68e887",
+    "name" : "org.hometest.test.MultiplyOperationTest",
+    "title" : "Multiply operation test"
+  },
+  "steps" : [ {
+    "name" : "multiplyTest[-12, 2, -24]",
+    "title" : "Check multiplying operation result",
+    "time" : {
+      "start" : 1474768339402,
+      "stop" : 1474768339402,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Multiplying"
+  }, {
+    "name" : "host",
+    "value" : "ilia-pc"
+  }, {
+    "name" : "thread",
+    "value" : "7228@ilia-pc.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "org.hometest.test.MultiplyOperationTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}
