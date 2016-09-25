@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class DataLoader {
 
-    public static List<String[]> loadData(String filepath) {
+    public static List<String[]> loadData(String filepath, String operation) {
         List<String[]> operationList = new ArrayList<String[]>();
         String delimiter = ";";
         try {
@@ -20,7 +20,9 @@ public class DataLoader {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] elements = line.split(delimiter);
-                operationList.add(elements);
+                if (elements[2].equals(operation)) {
+                    operationList.add(elements);
+                }
             }
         } catch (FileNotFoundException ex) {
             System.out.print(ex.getMessage());

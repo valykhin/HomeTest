@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: org.hometest.test.SubtractOperationTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+Test[2 - 1 = 1333](org.hometest.test.SubtractOperationTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1333> but was:<1>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.hometest.test.OperationTestSteps.subtractTest(OperationTestSteps.java:25)
+	at org.hometest.test.SubtractOperationTest.Test(SubtractOperationTest.java:31)
+
+Test[0 - 543 = 543](org.hometest.test.SubtractOperationTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<543> but was:<-543>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.hometest.test.OperationTestSteps.subtractTest(OperationTestSteps.java:25)
+	at org.hometest.test.SubtractOperationTest.Test(SubtractOperationTest.java:31)
+
+Test[-13 - -14 = -1](org.hometest.test.SubtractOperationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<-1> but was:<1>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.hometest.test.OperationTestSteps.subtractTest(OperationTestSteps.java:25)
+	at org.hometest.test.SubtractOperationTest.Test(SubtractOperationTest.java:31)
+

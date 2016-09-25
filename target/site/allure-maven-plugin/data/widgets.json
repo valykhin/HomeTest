@@ -3,63 +3,136 @@
   "plugins" : {
     "total" : {
       "statistic" : {
-        "total" : 24,
-        "passed" : 21,
+        "total" : 52,
+        "passed" : 42,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 3,
+        "failed" : 10,
         "broken" : 0
       },
       "time" : {
-        "start" : 1474727738205,
-        "stop" : 1474727738302,
-        "duration" : 97
+        "start" : 1474766908532,
+        "stop" : 1474766908668,
+        "duration" : 136
       }
     },
     "defects" : {
-      "totalCount" : 3,
+      "totalCount" : 5,
       "items" : [ {
-        "count" : 1,
-        "uid" : "32b7a4cb701ab9a0",
+        "count" : 2,
+        "uid" : "9f61c84be2bf5f01",
+        "message" : "AssertionError: expected:<-21> but was:<-20>",
+        "status" : "FAILED"
+      }, {
+        "count" : 2,
+        "uid" : "a45c1a027c4d7ab9",
         "message" : "AssertionError: expected:<1333> but was:<1>",
         "status" : "FAILED"
       }, {
-        "count" : 1,
-        "uid" : "59d981c81b2f0748",
+        "count" : 2,
+        "uid" : "21d76f2ab58263fa",
         "message" : "AssertionError: expected:<543> but was:<-543>",
         "status" : "FAILED"
       }, {
-        "count" : 1,
-        "uid" : "6d98227cde24fb84",
+        "count" : 2,
+        "uid" : "bb025fc0469653bf",
+        "message" : "AssertionError: expected:<-1> but was:<1>",
+        "status" : "FAILED"
+      }, {
+        "count" : 2,
+        "uid" : "a55c28356a7b0980",
         "message" : "AssertionError: expected:<1.3> but was:<1.5>",
         "status" : "FAILED"
       } ]
     },
     "xunit" : {
-      "totalCount" : 1,
+      "totalCount" : 4,
       "items" : [ {
-        "uid" : "ef56d6645f6ecfdc",
-        "title" : "Operation test suite",
+        "uid" : "462426385ca8c012",
+        "title" : "Add operation test",
         "statistic" : {
-          "total" : 24,
-          "passed" : 21,
+          "total" : 16,
+          "passed" : 14,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 3,
+          "failed" : 2,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "ca8bf72b1e4624ac",
+        "title" : "Divide operation test",
+        "statistic" : {
+          "total" : 14,
+          "passed" : 12,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 2,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "6aa9357603a04cdf",
+        "title" : "Multiply operation test",
+        "statistic" : {
+          "total" : 10,
+          "passed" : 10,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "b0fa4afdba4cea24",
+        "title" : "Subtract operation test",
+        "statistic" : {
+          "total" : 12,
+          "passed" : 6,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 6,
           "broken" : 0
         }
       } ]
     },
     "behaviors" : {
-      "totalCount" : 1,
+      "totalCount" : 4,
       "items" : [ {
-        "title" : "Without feature",
+        "title" : "Adding",
         "statistic" : {
-          "total" : 24,
-          "passed" : 21,
+          "total" : 16,
+          "passed" : 14,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 3,
+          "failed" : 2,
+          "broken" : 0
+        }
+      }, {
+        "title" : "Division",
+        "statistic" : {
+          "total" : 14,
+          "passed" : 12,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 2,
+          "broken" : 0
+        }
+      }, {
+        "title" : "Multiplying",
+        "statistic" : {
+          "total" : 10,
+          "passed" : 10,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "title" : "Subtracting",
+        "statistic" : {
+          "total" : 12,
+          "passed" : 6,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 6,
           "broken" : 0
         }
       } ]
