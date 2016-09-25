@@ -1,1 +1,1 @@
-Запуск набора сценариев: mvn clean test -Dtest=TestSuite site
+Р—Р°РїСѓСЃРє РЅР°Р±РѕСЂР° СЃС†РµРЅР°СЂРёРµРІ: mvn clean test -Dtest=TestSuite site
